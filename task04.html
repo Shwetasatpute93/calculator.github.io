@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <html>
+        <body>
+            <h1>Pattern Program using Js</h1>
+
+            <script>
+
+                // reverse pattern program
+                
+                var i,j;
+
+                var txt = "";
+
+                // for(i = 1; i <= 5; i++){
+                //     for(j = 1; j <= 5 - i + 1; j++){
+                //         txt += "*";
+                //     }
+                //     txt += "\n";
+                // }
+                
+                // from right side pattern program
+                for(i = 1; i <= 5; i++){
+                    for(j = 0; j < 5-i; j++){
+                        txt += " ";
+                    }
+
+                    for(k = 1; k <= i; k++){
+                        txt +="*";
+                    }
+                    txt += "\n";
+                }
+                console.log(txt);
+
+            </script>
+        </body>
+    </html>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div class="first_box" id="first_box">Change Text</div>
+        <div class="first_box" id="second_box">Change Text</div>
+        <div class="first_box" id="Third_box">Change Text</div>
+
+    </body>
+
+    <script>
+        document.querySelector('#first_box').innerHTML = "new text";
+
+        var divs = document.querySelectorAll('.first_box');
+
+        divs.forEach((val)=>{
+            val.innerHTML = "new text"
+        })
+    </script>
+</html>
